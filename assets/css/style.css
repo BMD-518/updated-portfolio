@@ -29,9 +29,8 @@ body {
     background: url(https://media.giphy.com/media/3oKIPrhSx51K4Hv0ME/giphy.gif);
     background-size: cover;
     background-position: center;
-    /* font-family: 'Bowlby One SC', cursive; */
     
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     color: transparent; 
     
     writing-mode: vertical-rl;
