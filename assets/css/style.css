@@ -33,7 +33,7 @@ body {
     
 
     /* v ISSUE!! W/line won't display on github, without  won't display locally.. wtf */
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     background-clip: text;
     color: transparent; 
     
