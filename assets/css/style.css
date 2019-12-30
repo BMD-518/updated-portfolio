@@ -32,8 +32,8 @@ body {
     /* font-family: 'Bowlby One SC', cursive; */
     
 
-    /* v ISSUE!! W/line won't display on github, without  won't display locally.. wtf */
-    /* -webkit-background-clip: text; */
+    /* v ISSUE!! W/line (36) won't display on github, without  won't display locally.. wtf */
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent; 
     
