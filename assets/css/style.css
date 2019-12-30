@@ -29,8 +29,12 @@ body {
     background: url(https://media.giphy.com/media/3oKIPrhSx51K4Hv0ME/giphy.gif);
     background-size: cover;
     background-position: center;
+    /* font-family: 'Bowlby One SC', cursive; */
     
-    /* -webkit-background-clip: text; */
+
+    /* v ISSUE!! W/line won't display on github, without  won't display locally.. wtf */
+    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent; 
     
     writing-mode: vertical-rl;
