@@ -41,6 +41,7 @@ main {
   writing-mode: vertical-rl;
   width: inherit;
   height: inherit;
+  margin-top: 5%;
   box-sizing: border-box;
   /* font-size: 58px; */
   font-weight: bold;
@@ -54,6 +55,9 @@ main {
   width: 100%;
   animation: fadeOut 6s;
 }
+/* TESTING ZONE */
+
+/* END TESTING ZONE */
 
 #parallax-content {
   background: #080703;
