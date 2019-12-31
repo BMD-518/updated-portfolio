@@ -66,6 +66,10 @@ body {
   #footer {
     background-color: #080703;
   }
+
+  .carousel-slider {
+    background-color: #D54036;
+  }
   
 /* fade in */
 @keyframes fadeOut {
