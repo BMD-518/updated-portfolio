@@ -20,6 +20,14 @@ body {
     /* font-family: 'Bowlby One SC', cursive; */
     font-family: 'Monoton', cursive;
   }
+
+  .sidenav {
+    /* background-color: #D54036; */
+    background: url(https://media.giphy.com/media/3oKIPrhSx51K4Hv0ME/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    border-right: #D54036 2px solid;
+  }
   
   
   /* START EXPERIMENTAL */
