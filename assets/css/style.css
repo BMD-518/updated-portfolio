@@ -55,9 +55,7 @@ main {
   width: 100%;
   animation: fadeOut 6s;
 }
-/* TESTING ZONE */
 
-/* END TESTING ZONE */
 
 #parallax-content {
   background: #080703;
@@ -67,26 +65,24 @@ main {
   border-bottom: #D54036 2px solid;
 }
 
-#footer {
-  background-color: #080703;
+.parallax-container {
+  height: 600px;
 }
+/* TESTING ZONE */
 
-.burger-card{
-  background-color: #FF9102;
-}
-
-.carousel .carousel-item {
-  margin-top: 1% !important;
-  width: 50% !important;
-  height: 60% !important;
+.carousel {
+  height: 600px;
+  padding-bottom: 50px !important;
 }
 
 
-/* .carousel-slider {
-  background-color: #D54036;
-} */
 
-/* fade in */
+
+/* END TESTING ZONE */
+
+  #footer {
+    background-color: #080703;
+  }
 
 @keyframes fadeOut {
   from {
