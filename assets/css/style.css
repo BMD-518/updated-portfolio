@@ -72,7 +72,28 @@ main {
 
 .carousel {
   height: 600px;
-  padding-bottom: 50px !important;
+}
+
+.carousel-item {
+  margin-top: -140px;
+  min-width: 600px;
+  margin-right: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #navbarName {
+    font-size: 18px;
+  }
+
+  .carousel-item {
+    margin-top: -180px;
+    min-width: 300px;
+  }
+
+  .parallax-container {
+    height: 400px;
+  }
 }
 
 
