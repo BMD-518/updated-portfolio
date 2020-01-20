@@ -60,10 +60,104 @@ main {
   border-bottom: #D54036 2px solid;
 }
 
+/* TESTING ZONE ****************************************************** */
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.mern-image {
+  /* max-height: 75%; */
+}
+
+/* vv MERN Image ID's vv */
+#mongo-img{
+  max-height: 300px;
+}
+#express-img{
+  max-width: 300px;
+  margin-top: 11%;
+}
+#react-img{
+  max-width: 400px;
+  margin: auto;
+}
+#node-img{
+  max-width: 300px;
+}
+/* ^^ Mern Image ID's ^^ */
+
+.flip-card {
+  align-content: space-between;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  display: inline-flexbox;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: transparent;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back.mongodb {
+  border-radius: 15px;
+  background-color: transparent;
+  color: white;
+  border: #13AA52 5px solid;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back.express {
+  border-radius: 15px;
+  background-color: transparent;
+  color: white;
+  border: #C77C71 5px solid;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back.react {
+  border-radius: 15px;
+  background-color: transparent;
+  color: white;
+  border: #61DBFC 5px solid;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back.node {
+  border-radius: 15px;
+  background-color: transparent;
+  color: white;
+  border: #539E43 5px solid;
+  transform: rotateY(180deg);
+}
+/* END TESTING ZONE ****************************************************** */
+
 .parallax-container {
   height: 600px;
 }
-/* TESTING ZONE */
 
 .carousel {
   animation: fadeOut 5s;
@@ -78,25 +172,20 @@ main {
 }
 
 @media only screen and (max-width: 600px) {
-
+  
   #navbarName {
     font-size: 18px;
   }
-
+  
   .carousel-item {
     margin-top: -180px;
     min-width: 300px;
   }
-
+  
   .parallax-container {
     height: 400px;
   }
 }
-
-
-
-
-/* END TESTING ZONE */
 
   #footer {
     background-color: #080703;
