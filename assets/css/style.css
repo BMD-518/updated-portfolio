@@ -68,7 +68,7 @@ main {
 
 /* vv MERN Image ID's vv */
 #mongo-img{
-  max-height: 300px;
+  max-height: 250px;
 }
 #express-img{
   max-width: 300px;
