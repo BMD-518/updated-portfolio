@@ -15,8 +15,6 @@ main {
 }
 
 #navbarName {
-  /* margin-left: 5%; */
-  /* font-family: 'Bowlby One SC', cursive; */
   font-family: 'Monoton', cursive;
 }
 
@@ -34,18 +32,15 @@ main {
   background: url(https://media.giphy.com/media/3oKIPrhSx51K4Hv0ME/giphy.gif);
   background-size: cover;
   background-position: center;
-  /* font-family: 'Bowlby One SC', cursive; */
   -webkit-background-clip: text !important;
   background-clip: text;
   color: transparent;
   writing-mode: vertical-rl;
   width: inherit;
   height: inherit;
-  margin-top: 5%;
+  margin-top: 8%;
   box-sizing: border-box;
-  /* font-size: 58px; */
   font-weight: bold;
-  /* text-align: center; */
   line-height: 100px;
   flex-shrink: 1;
   animation: fadeOut 12s;
@@ -53,7 +48,7 @@ main {
 
 .parallax-img {
   width: 100%;
-  animation: fadeOut 6s;
+  /* animation: fadeOut 3s; */
 }
 
 
@@ -71,11 +66,13 @@ main {
 /* TESTING ZONE */
 
 .carousel {
+  animation: fadeOut 5s;
   height: 600px;
 }
 
 .carousel-item {
-  margin-top: -140px;
+  border-radius: 10px !important;
+  margin-top: -160px;
   min-width: 600px;
   margin-right: 20%;
 }
@@ -115,5 +112,5 @@ main {
 }
 
 h2 {
-  animation: fadeOut 20s;
+  animation: fadeOut 1s;
 }
