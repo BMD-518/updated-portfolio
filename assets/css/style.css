@@ -62,25 +62,30 @@ main {
 
 /* TESTING ZONE ****************************************************** */
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.mern-image {
-  /* max-height: 75%; */
-}
 
 /* vv MERN Image ID's vv */
 #mongo-img{
-  max-width: 110px;
-  margin-top: 6%;
+  height: 100%;
+  width: auto;
+  /* max-width: 110px;
+  margin-top: 6%; */
 }
 #express-img{
-  max-width: 300px;
+  height: 75%;
+  width: auto;
+  /* max-width: 300px; */
   margin-top: 11%;
 }
 #react-img{
-  max-width: 400px;
-  margin: auto;
+  height: 100%;
+  width: auto;
+  /* max-width: 400px;
+  margin: auto; */
 }
 #node-img{
-  max-width: 300px;
+  height: 100%;
+  width: auto;
+  /* max-width: 300px; */
 }
 /* ^^ Mern Image ID's ^^ */
 
@@ -186,6 +191,21 @@ main {
   .parallax-container {
     height: 400px;
   }
+
+  #mongo-img{
+    height: 100%;
+  }
+  #express-img{
+    height: 75%;
+    margin-top: 11%;
+  }
+  #react-img{
+    height: 100%;
+  }
+  #node-img{
+    height: 100%;
+  }
+
 }
 
   #footer {
