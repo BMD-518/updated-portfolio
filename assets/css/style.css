@@ -177,49 +177,10 @@ main {
   margin-right: 20%;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
 
-    
-    #navbarName {
-      font-size: 18px;
-    }
-    
-    .carousel-item {
-      margin-top: -180px;
-      min-width: 300px;
-    }
-    
-    .parallax-container {
-      height: 400px;
-    }
-    
-
-    #carousel-container {
-      height: 475px;
-    }
-
-    #mongo-img{
-      height: 100%;
-    }
-    #express-img{
-      height: 75%;
-      margin-top: 11%;
-    }
-    #react-img{
-      height: 100%;
-    }
-    #node-img{
-      height: 100%;
-    }
-    
+#footer {
+  background-color: #080703;
 }
-
-  #footer {
-    background-color: #080703;
-  }
 
 @keyframes fadeOut {
   from {
@@ -232,4 +193,51 @@ main {
 
 h2 {
   animation: fadeOut 1s;
+}
+
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+
+  /* body {
+    max-width: 100%;
+  } */
+  
+  #navbarName {
+    font-size: 18px;
+  }
+  
+  .carousel-item {
+    margin-top: -180px;
+    min-width: 300px;
+  }
+  
+  .parallax-container {
+    height: 400px;
+  }
+
+  .flip-card {
+    width: 100% !important;
+  }
+
+  #carousel-container {
+    height: 475px;
+  }
+
+  #mongo-img{
+    height: 100%;
+  }
+  #express-img{
+    height: 75%;
+    margin-top: 11%;
+  }
+  #react-img{
+    height: 100%;
+  }
+  #node-img{
+    height: 100%;
+  }
+  
 }
